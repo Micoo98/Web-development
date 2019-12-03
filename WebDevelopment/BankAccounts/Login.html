@@ -1,0 +1,22 @@
+<html>
+    <head>       
+        <title>Account Validation</title>        
+    </head>
+    <body>
+        <script type="text/javascript" src="./JsFiles/loginFunctions.js"></script>
+        <link rel="stylesheet" href="./CSS/BankWebApp.css" type="text/css">
+        <div id="login" class="contentBox">
+                <h2>Login</h2>
+                <div id="loginInput">
+                    <label for='userName'>User Name: </label>
+                    <input type="text" id="userName" name="inputUserName">
+                    <label for='userName'>Password: </label>
+                    <input type="password" id="password" name="inputPassword">
+                    </br>
+                    Show Password: <input type="checkbox" onclick="togglePassword()">
+                    </br></br>
+                    <button type="submit" onclick="checkPassword()" class="basicButton">Enter</button>
+                </div>
+        </div>      
+    </body>
+</html>

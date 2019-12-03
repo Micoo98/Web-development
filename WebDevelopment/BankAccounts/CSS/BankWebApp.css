@@ -1,0 +1,41 @@
+body 
+{
+    background-color: aqua;
+}
+
+.contentBox
+{
+    color: white;
+    background-color: darkslategray;
+}
+
+#accountSearch {
+    padding: 10px;
+    text-align: center;
+}
+
+#newAccountForm
+{
+    padding: 10px;
+    text-align: center;
+}
+
+#login
+{
+    padding: 10px;
+    text-align: center;
+}
+
+#options
+{
+    height: 500px;
+    width: 15%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.basicButton
+{
+    padding: 5px;
+}

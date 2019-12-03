@@ -1,0 +1,29 @@
+<html>
+    <head>       
+        <title>Account Validation</title>        
+    </head>
+    <body>
+        <script type="text/javascript" src="./loginFunctions.js"></script>
+        <script type="text/javascript">
+        var u
+        function checkAccount(){
+            var x = document.getElementById("userName");
+            var y = document.getElementById("password");
+            checkPassword(x.value,y.value);
+        }
+        </script>
+        <div id="login">
+                <h2>Login</h2>
+                <div id="loginInput">
+                    <label for='userName'>User Name: </label>
+                    <input type="text" id="userName" name="inputUserName">
+                    <label for='userName'>Password: </label>
+                    <input type="password" id="password" name="inputPassword">
+                </br>
+                    Show Password: <input type="checkbox" onclick="togglePassword()">
+                </br></br>
+                    <button type="button" class="Enter" onclick="checkAccount()">Enter</button>
+                </div>
+        </div>      
+    </body>
+</html>
